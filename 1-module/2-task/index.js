@@ -3,10 +3,9 @@ function print(text) {
   console.log(text);
 }
 
-
 function isValid(name) {
   return !!name && !name.includes(' ') && name.length >= 4;
- //return name != null && name.includes(' ') != "% %" && name.lenght >= 4;
+
 }
  
 
