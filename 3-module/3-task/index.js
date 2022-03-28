@@ -4,11 +4,10 @@ function camelize(str) {
   }
 
   return str
-    .split('-') // разбивает 'my-long-word' на массив ['my', 'long', 'word']
+    .split('-') 
     .map((part, index) => {
-      // Переводит в верхний регистр первые буквы всех элементом массива за исключением первого
-      // превращает ['my', 'long', 'word'] в ['my', 'Long', 'Word']
-      if (index === 0) { // Это нужно делать, чтобы не делать заглавной первую часть
+     
+      if (index === 0) { 
         return part;
       }
 
