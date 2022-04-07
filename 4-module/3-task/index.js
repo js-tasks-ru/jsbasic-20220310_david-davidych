@@ -1,3 +1,4 @@
+
 // function highlight(table) {
 //   for (let i = 0; i < table.rows.length; i++) { 
 //     let td = table.rows[i].cells[3];
@@ -13,7 +14,8 @@ const FIRST_COLUMN = 1;
 const SECOND_COLUMN = 2;
 const THIRD_COLUMN = 3;
 function highlight(table) {
-  // ваш код...
+  
+
   const actions = {
     [THIRD_COLUMN]: (root, td) => {
       if (td.dataset.available === 'true') {
@@ -49,4 +51,6 @@ function highlight(table) {
       }
     });
   }
+
 }
+
